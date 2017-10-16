@@ -1,0 +1,109 @@
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.firstChild {
+    flex: 1;
+    justify-content: center;
+    margin: auto;
+}
+
+#secondChild{
+    flex: 1;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.controls{
+    border: none;
+}
+.controls li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    border: none;
+    
+    
+    
+}
+#files {
+    visibility: hidden;
+    padding: 0;
+    margin: 0;
+   
+}
+
+#labels {
+    color: #f5dbdb;
+    font-size: 15px;
+}
+
+#upload-button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-color: #f5dbdb;
+    border-width: 5px;
+    color: #f5dbdb;
+    font-size: 20px;
+}
+#upload-button:hover {
+    background: #f5dbdb;
+    color: #4e1616;
+}
+
+.fa-folder-o .fa {
+    border-style: none;
+}
+#folder {
+    border-style: none;
+}
+.icons{
+    border: none;
+    top: 10px;
+    padding: 10px 30px;
+}
+.icons:hover{
+    color: #f5dbdb;
+    
+    
+}
+.icons> i :hover {
+    color: #f5dbdb;
+}
+.icons-list {
+    border: none;
+}
+.icons-list:hover{
+    color:#f5dbdb;
+    border-style: none;
+}
+
+.musicUploaded {
+    list-style: none;
+    border-width: 10px;
+    border-style: none;
+
+}
+.musicUploaded:hover {
+  
+    color: #4e1616;
+  
+}
+#list-button {
+   
+    border-style: none;
+    font-size: 20px;
+    color: #f5dbdb;
+    padding: 20px;
+    border-width: 10px;
+    
+}
+
+#list-button:hover {
+    background: #f5dbdb;
+    color: #4e1616;
+    border-width: 10px;
+}

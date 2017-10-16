@@ -1,0 +1,55 @@
+<div class="container-fluid">
+  <div class="firstChild">
+    <label for="files" >
+      <span id="labels">Please click here to select music and click the folder button once one</span>
+      <input #fileInput type="file" name="files" id='files' for="folder" />
+    </label>
+    <button for='folder' class='icons' type="button" (click)="addFile()">
+      <i class="fa fa-folder-o fa-3x" aria-hidden="true" id="folder"></i>
+    </button>
+
+
+    <button  id="upload-button" type="button" (click)="getMusic()">Get</button>
+
+    <div>
+      <ul *ngFor="let list of musicList">
+        <li class="musicUploaded"><button id="list-button" (click)='removeFile(list)'>{{list}}</button></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div id="secondChild">
+    <div class="buttons">
+      <ul class="controls">
+        <li>
+          <button for="back" class="icons-list">
+            <i class="fa fa-step-backward fa-3x" aria-hidden="true" id="back"></i>
+          </button>
+        </li>
+        <li>
+          <button for="play" class="icons-list">
+            <i class="fa fa-play fa-3x" aria-hidden="true" id="play" (click)="musicplay()"></i>
+          </button>
+        </li>
+        <li>
+          <button for="pause" class="icons-list">
+            <i class="fa fa-pause fa-3x" aria-hidden="true" id="pause" (click)="musicPause()"></i>
+          </button>
+        </li>
+        <li>
+          <button for="next" class="icons-list">
+            <i class="fa fa-step-forward fa-3x" aria-hidden="true" id="next" ></i>
+          </button>
+        </li>
+        <li>
+          <button for="shuffle" class="icons-list">
+            <i class="fa fa-random fa-3x" aria-hidden="true" id="shuffle" ></i>
+          </button>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+</div>
