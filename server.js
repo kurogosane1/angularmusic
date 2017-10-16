@@ -18,7 +18,7 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 // app.use(express.static(process.cwd() + "/dist"));
 app.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname + './dist/index.html'))
+    res.sendFile(path.join(__dirname + '/dist/index.html'))
 })
 
 
