@@ -42,9 +42,9 @@ router.use(function (req, res, next) {
   next();
 });
 
-router.get('/', (res, req)=> {
-  res.sendFile(path.join(__dirname + '../../dist/index.html'));
-});
+// router.get('/', (res, req)=> {
+//   res.sendFile(path.join(__dirname + '../../dist/index.html'));
+// });
 
 router.get('/music', (res, req, next) => {
   fs.readdir('./dist/assets/uploads', (err, data) => {
