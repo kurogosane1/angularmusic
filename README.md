@@ -1,7 +1,9 @@
 #Angular Music App
 
 This app is made using Angular version 4 and Multer. Multer was used to store locally the files and using Nodejs Fs tool to work with. 
-This was originally created with the purpose of using it on Electron. However, electron doesn't utilize express and this can't be used on a website. however, this will work under local server. 
+This was originally created with the purpose of using it on Electron. However, electron doesn't utilize express and this was not meant to be used on a website. however, this will work under local server. 
+It will be later on converted to work with electron and then have a desktop running apps only. 
+
 
 To use this just go to folder and type `npm install` and once installed
 then enter this command  `ng build && node server.js`.
