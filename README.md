@@ -7,11 +7,23 @@ It will be later on converted to work with electron and then have a desktop runn
 
 To use this just go to folder and type `npm install` and once installed
 then enter this command  `ng build && node server.js`.
-It will load on to the local server and the user shall be able to player on the local server.
+It will load on to the local server and the user shall be able to use the player.
+
+### How to use
+
+Once the local server is running, simply click to upload the music file that you want to play. Once selected and the folder button is pressed. The music should show up on the left. 
+Then play the music button and the music shall start. 
+
 
 ### Note
 There is still work to be done like only being able to select music files and not any other files. 
 However, this is capable of getting the music file and storing it where locally it was made. 
+
+#### Pending
+1. Allow the next and back button and to make HowlerJS work with play lists.
+2. Design is going to work with 900 by 600 app. 
+3. Add later on in Electron visual representation of the music like waves that go with the music. 
+
 
 
 # Music
