@@ -1,4 +1,4 @@
-#Angular Music App
+# Angular Music App
 
 This app is made using Angular version 4 and Multer. Multer was used to store locally the files and using Nodejs Fs tool to work with. 
 This was originally created with the purpose of using it on Electron. However, electron doesn't utilize express and this was not meant to be used on a website. however, this will work under local server. 
